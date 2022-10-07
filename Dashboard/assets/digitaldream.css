@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'digitaldream'; 
+    src: url('digitaldream.ttf');
+}
+
+.popy-white {
+    margin: 10%;
+    overflow-x: hidden;
+    font-family: "digitaldream";
+    font-size: 3.5vw;
+    color: #ffffff;
+    font-weight: 800;
+    margin: 0.5vw 0vw 0vw 0.7vw;
+}
+
+.popy-black {
+    margin: 10%;
+    overflow-x: hidden;
+    font-family: "digitaldream";
+    font-size: 3.5vw;
+    color: #000000;
+    font-weight: 800;
+    margin: 0.5vw 0vw 0vw 0.7vw;
+}

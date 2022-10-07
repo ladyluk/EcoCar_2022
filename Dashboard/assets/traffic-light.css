@@ -1,0 +1,56 @@
+.trf-lgt-container {
+	border: 2px solid grey;
+    box-shadow: 0 0 20px grey;
+    width: 70px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.red {
+	border: 2px solid #e83348;
+    box-shadow: 0 0 20px #e83348;
+    border-radius: 50%;
+    width: 84%;
+    height: 28%;
+    background-image: radial-gradient(red, #e83348);
+}
+.yellow {
+	border: 2px solid yellow;
+    box-shadow: 0 0 20px yellow;
+    border-radius: 50%;
+    width: 84%;
+    height: 28%;
+    background-color: yellow;
+}
+.green {
+	border: 2px solid rgb(0, 255, 0);
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    border-radius: 50%;
+    width: 84%;
+    height: 28%;
+    background-color: rgb(0, 255, 0);
+}
+.red-off {
+    border-radius: 50%;
+    width: 84%;
+    height: 28%;
+    background-image: radial-gradient(rgb(136, 0, 0), #8b202c);
+}
+.yellow-off {
+    border-radius: 50%;
+    width: 84%;
+    height: 28%;
+    background-color: rgb(138, 138, 0);
+}
+.green-off {
+    border-radius: 50%;
+    width: 84%;
+    height: 28%;
+    background-color: rgb(0, 63, 0);
+}

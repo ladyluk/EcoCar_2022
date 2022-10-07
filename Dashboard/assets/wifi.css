@@ -1,0 +1,20 @@
+/**
+ * Just for fun: Wifi icon with pure CSS
+ * https://codepen.io/GilSanchez/pen/ApEvqM
+ */
+
+.wifi {
+	padding: 15px;
+}
+
+.wifi, .wifi:before {
+	display: inline-block;
+	border: 45px double transparent;
+	border-top-color: currentColor;
+	border-radius: 50%;
+}
+
+.wifi:before {
+	content: '';
+	width: 0; height: 0;
+}
